@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Exemplo de api simples.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjbdesenv/post.git"
+  },
+  "author": "Fábio Júnior Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjbdesenv/post/issues"
+  },
+  "homepage": "https://github.com/fjbdesenv/post#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
